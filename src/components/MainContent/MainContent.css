@@ -1,0 +1,61 @@
+.MainContent{
+    background-color: rgb(30,30,30);
+}
+h1{
+    color: whitesmoke;
+    font-size: 60px;
+    text-align: center;
+    margin: 260px 250px 0 250px;
+}
+p{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 120px;
+}
+.fa-angle-double-down{
+    color: white;
+    font-size: 50px;
+    margin-left: 48%;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 1280px) {
+    h1{
+        color: whitesmoke;
+        font-size: 54px;
+        text-align: center;
+        margin: 400px 50px 0 50px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    h1{
+        color: whitesmoke;
+        font-size: 35px;
+        text-align: center;
+        margin: 400px 100px 0 100px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    h1{
+        color: whitesmoke;
+        font-size: 22px;
+        text-align: center;
+        margin: 400px 15px 0 15px;
+    }
+    p{
+        font-size: 13px;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .fa-angle-double-down{
+        color: white;
+        font-size: 50px;
+        margin-left: 48%;
+        margin-top: 30px;
+        cursor: pointer;
+    
+    }
+  }

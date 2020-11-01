@@ -1,0 +1,95 @@
+.Navigation{
+    width: 100%;
+    height: 70px;
+    background-color:rgb(40,40,40);
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    box-shadow:  1px 1px 8px lightgrey;
+}
+
+.BigListItem{
+    display: inline-block;
+    background-color:rgb(40,40,40);
+}
+.BigListItem a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 3px 13px 8px 13px;
+    margin-left: 8px;
+    color: white;
+    background-color:rgb(40,40,40);
+}
+.BigItem{
+    list-style: none;
+    background-color:rgb(40,40,40);
+}
+.Picture{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color:rgb(40,40,40);
+}
+.Picture img{
+    width: 100%;
+    height: 100%;
+}
+.BigListItem a:hover{
+    background-color:rgb(229, 223, 216);
+    border-radius: 15px;
+    color: black;
+}
+.active a{
+    background-color:rgb(229, 223, 216);
+    border-radius: 15px;
+    color: black;
+}
+.SmallScreenDiv{
+    display: none;
+}
+@media only screen and (max-width: 760px) {
+    li a{
+        font-size: 18px;
+        padding: 3px 5px 8px 5px;
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .SmallScreenDiv{
+        display: block;
+    }
+    .Navigation{
+        justify-content: space-between;
+    }
+    .BigItem{
+        display: none;
+    }
+    .big_screen{
+        color: white;
+        font-size: 40px;
+        background-color: inherit;
+        padding: 13px;
+    }
+    .Items a{
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        background-color: inherit;
+    }
+    .Items{
+        margin-top: 16px;
+        background-color: inherit;
+    }
+    .ItemDiv{
+        position: absolute;
+        top: 80px;
+        left: 250px;
+        background-color: whitesmoke;
+    }
+    .Lists{
+        list-style: none;
+        background-color: inherit;
+    }
+}
